@@ -72,7 +72,7 @@ class Registration extends CI_Controller {
 		$found = $this->Registration_model->find($this->input->post('nama'),'nama');
 		if ($found != "")
 		{
-			echo json_encode(array("status" => FALSE));
+			//echo json_encode(array("status" => FALSE));
 		}
 		else
 		{	
